@@ -46,6 +46,13 @@ nav ul {
     color: #474747;
 }
 
+/* shared color*/
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
 /* shared button */
 .btn-primary{
     background-color: #FD6E0A;
@@ -57,7 +64,10 @@ nav ul {
     border: none;
 
 }
-
+/* shared bg */
+.secondary-bg{
+    color: #FFF8F3;
+}
 /* banner styles */
 .banner-greetings{
     font-size: 45px;
@@ -87,4 +97,35 @@ nav ul {
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+/* about section */
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* shared secondary bg */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
