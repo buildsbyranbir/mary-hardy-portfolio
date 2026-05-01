@@ -152,6 +152,61 @@ main{
 
 
 /* A summary of my resume section */
-.card{
+.resume {
+    padding: 60px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.resume-container {
     display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resume-column {
+    width: 400px;
+}
+
+.resume-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.resume-item h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.resume-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background: #e65c00;
 }
